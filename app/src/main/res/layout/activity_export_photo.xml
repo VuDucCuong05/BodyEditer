@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize">
+
+        <FrameLayout
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingStart="@dimen/marimea3"
+            android:paddingEnd="@dimen/marimea3">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:src="@drawable/close_button" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            android:fontFamily="@font/sfui_text_medium"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/saved"
+            android:textSize="@dimen/text1" />
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/savedBG">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/marimea2"
+            app:layout_constraintBottom_toTopOf="@+id/makeAnother"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true" />
+        </FrameLayout>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/makeAnother"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:src="@drawable/custom_btn_edit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/editFace" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/editFace"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@drawable/custom_btn_edit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/makeAnother"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfui_text_medium"
+            android:text="@string/make_another"
+            android:textSize="@dimen/text4"
+            app:layout_constraintBottom_toBottomOf="@+id/makeAnother"
+            app:layout_constraintLeft_toLeftOf="@+id/makeAnother"
+            app:layout_constraintRight_toRightOf="@+id/makeAnother"
+            app:layout_constraintTop_toTopOf="@+id/makeAnother"
+            app:layout_constraintVertical_bias="0.28" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfui_text_medium"
+            android:text="@string/edit_your_face"
+            android:textSize="@dimen/text4"
+            app:layout_constraintBottom_toBottomOf="@+id/editFace"
+            app:layout_constraintLeft_toLeftOf="@+id/editFace"
+            app:layout_constraintRight_toRightOf="@+id/editFace"
+            app:layout_constraintTop_toTopOf="@+id/editFace"
+            app:layout_constraintVertical_bias="0.28" />
+
+        <FrameLayout
+            android:id="@+id/loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/loadingBG"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/marimea3"
+        android:paddingBottom="@dimen/marimea3">
+
+        <FrameLayout
+            android:id="@+id/instagramButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="@dimen/marimea4"
+            android:layout_marginEnd="@dimen/marimea4"
+            android:background="@drawable/custom_background_share">
+
+            <ImageView
+                android:tint="@color/white"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/instagram" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/facebookButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="@dimen/marimea4"
+            android:layout_marginEnd="@dimen/marimea4"
+            android:background="@drawable/custom_background_share">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/facebook" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/whatsappButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="@dimen/marimea4"
+            android:layout_marginEnd="@dimen/marimea4"
+            android:background="@drawable/custom_background_share">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/whatsapp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/messengerButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="@dimen/marimea4"
+            android:layout_marginEnd="@dimen/marimea4"
+            android:background="@drawable/custom_background_share">
+
+            <ImageView
+                android:tint="@color/white"
+
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/messenger" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/dotsButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="@dimen/marimea4"
+            android:layout_marginEnd="@dimen/marimea4"
+            android:background="@drawable/custom_background_share">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/three_dots" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/addViewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp" />
+</LinearLayout>

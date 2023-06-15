@@ -1,0 +1,15 @@
+<resources>
+    <string name="saved">Saved</string>
+    <string name="before">Before</string>
+    <string name="after">After</string>
+    <string name="share">Share</string>
+    <string name="share_with">Share With</string>
+    <string name="makebeautys_createby">Create by: </string>
+    <string name="photo_saved_at">Photo saved at:</string>
+    <string name="makebeautys_google_link">https://play.google.com/store/apps/details?id=</string>
+    <string name="title_save">Your photo has been saved successfully</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="more">More</string>
+    <string name="app_names">Art Filter</string>
+    <string name="share_image">Share Image</string>
+</resources>

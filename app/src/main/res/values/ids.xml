@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="selectedColor" type="id" />
+    <item name="mCircleImage" type="id" />
+    <item name="mTopImage" type="id"></item>
+    <item name="mBottomImage" type="id"></item>
+    <item name="mLeftImage" type="id"></item>
+    <item name="mRightImage" type="id"></item>
+    <item name="mCenterImage" type="id"></item>
+    <item name="centerLine" type="id"></item>
+    <item name="lineLeft" type="id"></item>
+    <item name="lineRight" type="id"></item>
+    <item name="mControlLayout" type="id"></item>
+    <item name="controlLineTop" type="id"></item>
+    <item name="redMask" type="id"></item>
+    <item name="controlIconTop" type="id"></item>
+    <item name="mResizeImage" type="id" />
+    <item name="mCircleImage1" type="id" />
+    <item name="mResizeImage1" type="id" />
+</resources>

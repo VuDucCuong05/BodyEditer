@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sn.photoeditor.photocollage.libglobal">
+
+    <application>
+        <activity android:name=".ui.SaveActivity">
+
+        </activity>
+    </application>
+
+</manifest>

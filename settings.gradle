@@ -1,0 +1,4 @@
+rootProject.name = "GetViewBodyRe"
+include ':app'
+include ':libGlobal'
+//include ':libBodyGos'

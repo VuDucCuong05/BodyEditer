@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="H,551:540" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/marimea3"
+        android:fontFamily="@font/sfui_text_medium"
+        android:text="@string/all_in_one_face_editor"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marimea4"
+        android:fontFamily="@font/sfui_text_medium"
+        android:paddingStart="@dimen/marimea3"
+        android:paddingEnd="@dimen/marimea3"
+        android:text="@string/one_click_to_try"
+        android:textAlignment="center"
+        android:textColor="#6d6d6d" />
+
+    <FrameLayout
+        android:id="@+id/download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marimea3">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+         />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/sfui_text_bold"
+            android:text="@string/go_download"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text1" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/sfui_text_medium"
+        android:paddingStart="@dimen/marimea2"
+        android:paddingTop="@dimen/marimea3"
+        android:paddingEnd="@dimen/marimea2"
+        android:paddingBottom="@dimen/marimea2"
+        android:text="@string/not_now"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text3" />
+</LinearLayout>

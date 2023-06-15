@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/drawable-nodpi/home_bg.xml" value="0.139" />
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/drawable/ic_circle_arrow_left.xml" value="0.1495" />
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/drawable/tab_background.xml" value="0.1485" />
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/layout/activity_create_new_photo.xml" value="0.20416666666666666" />
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/layout/activity_create_new_photo2.xml" value="0.20416666666666666" />
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/layout/activity_edit_photo.xml" value="0.22" />
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/layout/activity_edit_photo_1.xml" value="0.203125" />
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/layout/activity_export_photo.xml" value="0.20416666666666666" />
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/layout/activity_gallery.xml" value="0.22" />
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/layout/activity_home2.xml" value="0.20416666666666666" />
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/layout/activity_main.xml" value="0.129981884057971" />
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/layout/activity_my_gallery.xml" value="0.19010416666666666" />
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/layout/activity_saved_photo.xml" value="0.20416666666666666" />
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/layout/dialog_delete_photo.xml" value="0.20416666666666666" />
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/layout/item_bottom_main_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/layout/item_gallery_grid.xml" value="0.20416666666666666" />
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/layout/item_image.xml" value="0.20416666666666666" />
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/layout/item_skincolor.xml" value="0.20416666666666666" />
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/layout/review_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/layout/tab_title_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/CongTyVTD/App/BodyEditor/app/src/main/res/layout/video_layout.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="13" project-jdk-type="JavaSDK" />
+</project>
